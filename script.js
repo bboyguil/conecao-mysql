@@ -15,7 +15,6 @@ function flashAtivo() {
     return hasFlash;
 };
 
-
 if (flashAtivo()) {
    document.getElementById("model").style.display = "none";
 } else {
