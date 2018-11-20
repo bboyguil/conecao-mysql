@@ -1,0 +1,58 @@
+/* Pop Up Sololearn*/
+#model {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 600px;
+    background: #fff;
+    display: none;
+    z-index: 900;
+}
+.model-body{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#fff;
+    width:500px;
+    max-width:100%;
+    padding: 10px 20px;
+}
+.model-body h3{
+    text-align: center;
+    font-size: 2em;
+    margin: 5px;
+}
+.model-body p{
+    line-height: 25px;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    display: none;
+    bottom: 100%;
+    right: 100%;
+}
+.useFlash{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    background: #3c7fca;
+    border: 2px solid #3c7fca;
+    border-radius: 4px;
+    padding: 11px 10px 12px;
+    width: 200px;
+    min-width: 100px;
+    margin: 9px auto;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff!important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.model-content{
+    clear:both;
+    width:100%;
+}
